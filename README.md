@@ -2,7 +2,7 @@
   <img src="Branding/logo/4.png" alt="Mico Patrick M. Pulido Logo" width="250" style="border-radius: 50%; border: 2px solid #842929;">
 </p>
 
-<h1 align="center">👋 Hi, I'm Mico Patrick M. Pulido</h1>
+<h1 align="center">Mico Patrick M. Pulido</h1>
 <h3 align="center">Computer Science Student | Aspiring Software Engineer</h3>
 
 <p align="center">
