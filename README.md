@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Branding/logo/4.png" alt="Mico Patrick M. Pulido Logo" width="250" style="border-radius: 50%; border: 2px solid #842929;">
+  <img src="Branding/logo/4.png" alt="Mico Patrick M. Pulido Logo" width="250" style="border-radius: 50%; border: 4px solid #842929;">
 </p>
 
 <h1 align="center">Mico Patrick M. Pulido</h1>
@@ -11,12 +11,17 @@
 
 ---
 
-### 📖 About Me
+<p align="center">
+  <img src="https://img.shields.io/badge/—%20ABOUT%20ME%20—-842929?style=for-the-badge&labelColor=842929&fontColor=white" width="100%"/>
+</p>
+
 I'm a Computer Science student currently studying at **Ateneo de Davao University**. I am driven by the challenge of designing scalable software architecture and writing efficient, clean code. I focus on bridging the gap between complex technical problems and seamless, functional user experiences.
 
 ---
 
-### 🛠️ Proficiencies
+<p align="center">
+  <img src="https://img.shields.io/badge/—%20PROFICIENCIES%20—-842929?style=for-the-badge&labelColor=842929&fontColor=white" width="100%"/>
+</p>
 
 **Languages & Frameworks**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -40,15 +45,21 @@ I'm a Computer Science student currently studying at **Ateneo de Davao Universit
 
 ---
 
-### 🎨 Brand Palette: Timeless Contrast
-* ⚫ **#000000** | **Blac**
+<p align="center">
+  <img src="https://img.shields.io/badge/—%20BRAND%20PALETTE%20—-842929?style=for-the-badge&labelColor=842929&fontColor=white" width="100%"/>
+</p>
+
+* ⚫ **#000000** | **Black**
 * ⚪ **#ffffff** | **White**
 * 🔴 **#842929** | **Red**
 * 🟡 **#f5f5dc** | **Beige**
 
 ---
 
-### 📫 Let's Connect!
+<p align="center">
+  <img src="https://img.shields.io/badge/—%20CONTACT%20ME%20—-842929?style=for-the-badge&labelColor=842929&fontColor=white" width="100%"/>
+</p>
+
 * **Email:** [pulidoomicoo@gmail.com](mailto:pulidoomicoo@gmail.com)
 * **Phone:** +63 998 488 2696
 
