@@ -1,22 +1,18 @@
 <p align="center">
-  <img src="Branding/logo/4.png" alt="Logo" width="250" style="border-radius: 50%; border: 2px solid #842929;">
+  <img src="Branding/logo/4.png" alt="Mico Patrick M. Pulido Logo" width="250" style="border-radius: 50%; border: 2px solid #842929;">
 </p>
 
 <h1 align="center">👋 Hi, I'm Mico Patrick M. Pulido</h1>
-<h3 align="center">Computer Science Student | Aspiring Game Developer</h3>
+<h3 align="center">Computer Science Student | Aspiring Software Engineer</h3>
 
 <p align="center">
-  <em>"Creating software through pure imagination"</em>
+  <em>"Building the future, one project at a time."</em>
 </p>
 
 ---
 
 ### 📖 About Me
-I'm a Computer Science student currently studying at **Ateneo de Davao University**. I am passionate about continuous learning and deepening my knowledge in software architecture and game logic. I enjoy problem-solving and turning complex ideas into functional reality.
-
-* 🔭 **Currently working on:** Personal Portfolio & Game Engine logic
-* 🌱 **Learning:** Advanced C# and Unity
-* ⚡ **Fun Fact:** I believe imagination is the ultimate source code.
+I'm a Computer Science student currently studying at **Ateneo de Davao University**. I am driven by the challenge of designing scalable software architecture and writing efficient, clean code. I focus on bridging the gap between complex technical problems and seamless, functional user experiences.
 
 ---
 
@@ -44,9 +40,9 @@ I'm a Computer Science student currently studying at **Ateneo de Davao Universit
 ---
 
 ### 📫 Let's Connect!
-* **Email:** [marcvincentjacob@gmail.com](mailto:marcvincentjacob@gmail.com)
-* **Phone:** +63 976 291 3553
-* **LinkedIn:** [Your LinkedIn Profile Link]
+* **Email:** [pulidoomicoo@gmail.com](mailto:pulidoomicoo@gmail.com)
+* **Phone:** +63 998 488 2696
+* **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
 
 ---
 <p align="center">
