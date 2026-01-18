@@ -12,7 +12,9 @@
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/—%20ABOUT%20ME%20—-%23842929?style=for-the-badge&labelColor=%23842929" height="35"/>
+
+  <img src="https://img.shields.io/badge/—%20ABOUT%20ME%20—-842929?style=for-the-badge&labelColor=842929&fontColor=white" width="100%"/>
+
 </p>
 
 <p align="center">
