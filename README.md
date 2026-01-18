@@ -1,9 +1,13 @@
-<img src="Branding/logo/4.png" alt="Mico Patrick M. Pulido Logo" width="500" style="border-radius: 50%; border: 5px solid #842929; display: block;">
+<p align="center">
+  <img src="Branding/logo/4.png" alt="Mico Patrick M. Pulido Logo" width="500" style="border-radius: 50%; border: 5px solid #842929; display: block; margin: auto;">
+</p>
 
-# Mico Patrick M. Pulido
-### Computer Science Student | Aspiring Software Engineer
+<h1 align="center">Mico Patrick M. Pulido</h1>
+<h3 align="center">Computer Science Student | Aspiring Software Engineer</h3>
 
-> "Building the future, one project at a time."
+<p align="center">
+  <em>"Building the future, one project at a time."</em>
+</p>
 
 ---
 
