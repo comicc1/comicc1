@@ -1,68 +1,54 @@
 <p align="center">
-  <img src="Branding/logo/4.png" alt="Logo" width="300" height="300"/>
+  <img src="Branding/logo/4.png" alt="Logo" width="250" style="border-radius: 50%; border: 2px solid #842929;">
 </p>
 
-<h1 align="center">Hi, I'm Mico Patrick M. Pulido</h1>
+<h1 align="center">👋 Hi, I'm Mico Patrick M. Pulido</h1>
 <h3 align="center">Computer Science Student | Aspiring Game Developer</h3>
 
 <p align="center">
-  <em>Creating software through pure imagination</em>
+  <em>"Creating software through pure imagination"</em>
 </p>
 
 ---
 
-![About Me](https://img.shields.io/badge/About_Me-23547b?style=for-the-badge)
+### 📖 About Me
+I'm a Computer Science student currently studying at **Ateneo de Davao University**. I am passionate about continuous learning and deepening my knowledge in software architecture and game logic. I enjoy problem-solving and turning complex ideas into functional reality.
 
-I'm a Computer Science student currently studying at *Ateneo de Davao University*.  
-I am passionate about continuous learning and deepening my knowledge in the field I am in.  
-I enjoy problem-solving, turning ideas into reality, and building software with purpose.
-
----
-
-![Skills](https://img.shields.io/badge/Skills-23547b?style=for-the-badge)
-
-### Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-
-### Web & Tools
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![NetBeans](https://img.shields.io/badge/NetBeans-1B6AC6?style=flat&logo=apache-netbeans-ide&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier&logoColor=black)
-
-### Core Concepts
-- Data Structures & Algorithms  
-- Object-Oriented Programming  
-- Discrete Structures  
-- Information Management  
-- Event-Driven Programming  
+* 🔭 **Currently working on:** Personal Portfolio & Game Engine logic
+* 🌱 **Learning:** Advanced C# and Unity
+* ⚡ **Fun Fact:** I believe imagination is the ultimate source code.
 
 ---
 
-![Current Projects](https://img.shields.io/badge/Current_Projects-23547b?style=for-the-badge)
+### 🛠️ Skills & Tools
 
-- *Personal Portfolio Website* — Showcasing my work and skills  
+**Programming Languages**
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+
+**Web & Tools**
+![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
-![Brand Colors](https://img.shields.io/badge/Brand_Colors-23547b?style=for-the-badge)
-
-### Palette: Timeless Contrast
-- **#000000** | **Absolute Dark**
-- **#ffffff** | **Crisp Stark**
-- **#842929** | **Bold Garnet**
-- **#f5f5dc** | **Warm Neutral**
+### 🎨 Brand Palette: Timeless Contrast
+* ⚫ **#000000** | **Absolute Dark**
+* ⚪ **#ffffff** | **Crisp Stark**
+* 🔴 **#842929** | **Bold Garnet**
+* 🟡 **#f5f5dc** | **Warm Neutral**
 
 ---
 
-![Contact Me](https://img.shields.io/badge/Contact_Me-23547b?style=for-the-badge)
+### 📫 Let's Connect!
+* **Email:** [marcvincentjacob@gmail.com](mailto:marcvincentjacob@gmail.com)
+* **Phone:** +63 976 291 3553
+* **LinkedIn:** [Your LinkedIn Profile Link]
 
-- Email: *marcvincentjacob@gmail.com* - Phone: *+63 976 291 3553*
+---
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=comicc1&show_icons=true&theme=radical" alt="GitHub Stats" />
+</p>
