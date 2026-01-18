@@ -51,7 +51,6 @@ I'm a Computer Science student currently studying at **Ateneo de Davao Universit
 ### 📫 Let's Connect!
 * **Email:** [pulidoomicoo@gmail.com](mailto:pulidoomicoo@gmail.com)
 * **Phone:** +63 998 488 2696
-* **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
 
 ---
 <p align="center">
