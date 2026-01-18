@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/comicc1/Branding/main/logo/4.png" alt="Marc Vincent Jacob Logo" width="200px">
+  <img src="comicc1/Branding/main/logo/4.png" width="200px">
 </p>
 
 # <p align="center">👋 Hi, I'm Mico Patrick M. Pulido</p>
 
 <p align="center">
-  <strong>Building the future, One project at a time.</strong>
+  <strong>Building the future, one project at a time.</strong>
 </p>
 
 ---
