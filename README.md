@@ -17,14 +17,16 @@
 
 </p>
 
-<p align="center">
+<p>
 I'm a Computer Science student currently studying at <strong>Ateneo de Davao University</strong>. I am driven by the challenge of designing scalable software architecture and writing efficient, clean code. I focus on bridging the gap between complex technical problems and seamless, functional user experiences.
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/—%20PROFICIENCIES%20—-%23842929?style=for-the-badge&labelColor=%23842929" height="35"/>
+
+  <img src="https://img.shields.io/badge/—%20PROFICIENCIES%20—-842929?style=for-the-badge&labelColor=842929&fontColor=white" width="100%"/>
+
 </p>
 
 <h4 align="center"> Languages & Frameworks</h4>
@@ -56,7 +58,9 @@ I'm a Computer Science student currently studying at <strong>Ateneo de Davao Uni
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/—%20BRAND%20PALETTE%20—-%23842929?style=for-the-badge&labelColor=%23842929" height="35"/>
+
+  <img src="https://img.shields.io/badge/—%20BRAND%20PALETTE%20—-842929?style=for-the-badge&labelColor=842929&fontColor=white" width="100%"/>
+
 </p>
 
 <p align="center">
@@ -66,7 +70,9 @@ I'm a Computer Science student currently studying at <strong>Ateneo de Davao Uni
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/—%20CONTACT%20ME%20—-%23842929?style=for-the-badge&labelColor=%23842929" height="35"/>
+
+  <img src="https://img.shields.io/badge/—%20CONTACT%20ME%20—-842929?style=for-the-badge&labelColor=842929&fontColor=white" width="100%"/>
+
 </p>
 
 <p align="center">
