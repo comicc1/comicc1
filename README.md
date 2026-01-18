@@ -73,5 +73,5 @@ I'm a Computer Science student currently studying at <strong>Ateneo de Davao Uni
 
 ---
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=comicc1&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=comicc1&show_icons=true&title_color=842929&icon_color=842929&text_color=ffffff&bg_color=000000&border_color=842929" alt="GitHub Stats" />
 </p>
