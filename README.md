@@ -1,12 +1,5 @@
 <p align="center">
-  <img src="Branding/banner/6.png" alt="Mico Patrick M. Pulido Logo" width="500" style="border-radius: 50%; border: 5px solid #842929; display: block; margin: auto;">
-</p>
-
-<h1 align="center">Mico Patrick M. Pulido</h1>
-<h3 align="center">Computer Science Student | Aspiring Software Engineer</h3>
-
-<p align="center">
-  <em>"Building the future, one project at a time."</em>
+  <img src="Branding/banner/6.png" alt="Mico Patrick M. Pulido Logo" width="100%" style="border-radius: 50%; border: 5px solid #842929; display: block; margin: auto;">
 </p>
 
 ---
