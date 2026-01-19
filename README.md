@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Branding/banner/1.png" alt="Mico Patrick M. Pulido Logo" width="100%" style="border-radius: 50%; border: 5px solid #842929; display: block; margin: auto;">
+  <img src="Branding/banner/6.png" alt="Mico Patrick M. Pulido Logo" width="100%" style="border-radius: 50%; border: 5px solid #842929; display: block; margin: auto;">
 </p>
 
 ---
