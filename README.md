@@ -15,7 +15,7 @@ CS Student @ Ateneo de Davao. I build scalable software with a focus on clean co
 
 ## Space Shooter:
 <p align="center">
-  <img src="space-shooter.gif" alt="Space Shooter" width="640" />
+  <img src="space-shooter.svg" alt="Space Shooter" width="760" />
 </p>
 
 ## GitHub Trophies
