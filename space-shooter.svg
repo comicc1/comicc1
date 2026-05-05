@@ -1,176 +1,130 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
-  <title id="title">Pixel Space Shooter</title>
-  <desc id="desc">A pixelated space shooter scene with chickens moving left to right and getting blasted in a loop.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">Space Shooter</title>
+  <desc id="desc">A custom animated space shooter scene with a ship, stars, enemies, and laser fire.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#070a10"/>
-      <stop offset="100%" stop-color="#101722"/>
+      <stop offset="0%" stop-color="#0b0f16"/>
+      <stop offset="100%" stop-color="#101621"/>
     </linearGradient>
-
-    <g id="chicken">
-      <rect x="8" y="0" width="4" height="4" fill="#ff5d73"/>
-      <rect x="12" y="0" width="4" height="4" fill="#ff5d73"/>
-      <rect x="4" y="4" width="4" height="4" fill="#ff5d73"/>
-      <rect x="8" y="4" width="4" height="4" fill="#ffd54a"/>
-      <rect x="12" y="4" width="4" height="4" fill="#ffd54a"/>
-      <rect x="16" y="4" width="4" height="4" fill="#ff9f1c"/>
-      <rect x="20" y="4" width="4" height="4" fill="#ff5d73"/>
-      <rect x="0" y="8" width="4" height="4" fill="#ffd54a"/>
-      <rect x="4" y="8" width="4" height="4" fill="#ffd54a"/>
-      <rect x="8" y="8" width="4" height="4" fill="#ffd54a"/>
-      <rect x="12" y="8" width="4" height="4" fill="#ffd54a"/>
-      <rect x="16" y="8" width="4" height="4" fill="#ffd54a"/>
-      <rect x="20" y="8" width="4" height="4" fill="#ffd54a"/>
-      <rect x="24" y="8" width="4" height="4" fill="#ffd54a"/>
-      <rect x="0" y="12" width="4" height="4" fill="#ffd54a"/>
-      <rect x="4" y="12" width="4" height="4" fill="#0b0f16"/>
-      <rect x="8" y="12" width="4" height="4" fill="#ffd54a"/>
-      <rect x="12" y="12" width="4" height="4" fill="#ffd54a"/>
-      <rect x="16" y="12" width="4" height="4" fill="#0b0f16"/>
-      <rect x="20" y="12" width="4" height="4" fill="#ffd54a"/>
-      <rect x="24" y="12" width="4" height="4" fill="#ffd54a"/>
-      <rect x="0" y="16" width="4" height="4" fill="#ffd54a"/>
-      <rect x="4" y="16" width="4" height="4" fill="#ffd54a"/>
-      <rect x="8" y="16" width="4" height="4" fill="#ffd54a"/>
-      <rect x="12" y="16" width="4" height="4" fill="#ffd54a"/>
-      <rect x="16" y="16" width="4" height="4" fill="#ffd54a"/>
-      <rect x="20" y="16" width="4" height="4" fill="#ffd54a"/>
-      <rect x="24" y="16" width="4" height="4" fill="#ffd54a"/>
-      <rect x="4" y="20" width="4" height="4" fill="#ff9f1c"/>
-      <rect x="20" y="20" width="4" height="4" fill="#ff9f1c"/>
-    </g>
-
-    <g id="ship">
-      <rect x="10" y="0" width="8" height="4" fill="#dce4ef"/>
-      <rect x="6" y="4" width="16" height="4" fill="#dce4ef"/>
-      <rect x="2" y="8" width="24" height="4" fill="#aab4c2"/>
-      <rect x="0" y="12" width="28" height="4" fill="#7b8797"/>
-      <rect x="4" y="16" width="20" height="4" fill="#dce4ef"/>
-      <rect x="10" y="20" width="8" height="4" fill="#00c2ff"/>
-      <rect x="12" y="24" width="4" height="4" fill="#7ee787"/>
-    </g>
-
-    <g id="boom">
-      <rect x="8" y="4" width="4" height="4" fill="#ffd166"/>
-      <rect x="4" y="8" width="4" height="4" fill="#ff9f1c"/>
-      <rect x="8" y="8" width="4" height="4" fill="#ff6b6b"/>
-      <rect x="12" y="8" width="4" height="4" fill="#ff9f1c"/>
-      <rect x="0" y="12" width="4" height="4" fill="#ff6b6b"/>
-      <rect x="4" y="12" width="4" height="4" fill="#ffd166"/>
-      <rect x="8" y="12" width="4" height="4" fill="#ffffff"/>
-      <rect x="12" y="12" width="4" height="4" fill="#ffd166"/>
-      <rect x="16" y="12" width="4" height="4" fill="#ff6b6b"/>
-      <rect x="4" y="16" width="4" height="4" fill="#ff9f1c"/>
-      <rect x="8" y="16" width="4" height="4" fill="#ff6b6b"/>
-      <rect x="12" y="16" width="4" height="4" fill="#ff9f1c"/>
-      <rect x="8" y="20" width="4" height="4" fill="#ffd166"/>
-    </g>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7ee787" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#00c2ff" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="ship" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e6edf3"/>
+      <stop offset="100%" stop-color="#9da7b3"/>
+    </linearGradient>
+    <linearGradient id="enemy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff7bd5"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="tinyGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <rect width="760" height="220" rx="18" fill="url(#bg)"/>
 
-  <g opacity="0.9">
-    <rect x="34" y="28" width="2" height="2" fill="#e6edf3"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" repeatCount="indefinite"/></rect>
-    <rect x="88" y="44" width="2" height="2" fill="#7ee787"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.2s" repeatCount="indefinite"/></rect>
-    <rect x="150" y="18" width="2" height="2" fill="#e6edf3"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.9s" repeatCount="indefinite"/></rect>
-    <rect x="214" y="60" width="2" height="2" fill="#ff6b6b"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.7s" repeatCount="indefinite"/></rect>
-    <rect x="286" y="26" width="2" height="2" fill="#00c2ff"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.5s" repeatCount="indefinite"/></rect>
-    <rect x="362" y="48" width="2" height="2" fill="#e6edf3"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.1s" repeatCount="indefinite"/></rect>
-    <rect x="438" y="22" width="2" height="2" fill="#7ee787"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.7s" repeatCount="indefinite"/></rect>
-    <rect x="506" y="52" width="2" height="2" fill="#e6edf3"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.8s" repeatCount="indefinite"/></rect>
-    <rect x="578" y="34" width="2" height="2" fill="#ff6b6b"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.1s" repeatCount="indefinite"/></rect>
-    <rect x="652" y="58" width="2" height="2" fill="#e6edf3"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.6s" repeatCount="indefinite"/></rect>
-    <rect x="720" y="24" width="2" height="2" fill="#7ee787"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.3s" repeatCount="indefinite"/></rect>
+  <g opacity="0.95">
+    <circle cx="42" cy="36" r="1.6" fill="#e6edf3">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="100" cy="58" r="1.2" fill="#7ee787">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="178" cy="28" r="1.4" fill="#e6edf3">
+      <animate attributeName="opacity" values="0.1;1;0.1" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="262" cy="72" r="1.1" fill="#00c2ff">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="338" cy="44" r="1.5" fill="#e6edf3">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="424" cy="34" r="1.1" fill="#7ee787">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="510" cy="60" r="1.3" fill="#e6edf3">
+      <animate attributeName="opacity" values="0.1;1;0.1" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="598" cy="38" r="1.4" fill="#ff7bd5">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="672" cy="68" r="1.2" fill="#e6edf3">
+      <animate attributeName="opacity" values="0.1;1;0.1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
-  <rect x="0" y="156" width="760" height="2" fill="#273040"/>
-  <rect x="0" y="158" width="760" height="1" fill="#7ee787" opacity="0.12"/>
-
-  <text x="380" y="24" text-anchor="middle" fill="#7ee787" font-family="monospace" font-size="14" font-weight="700">PIXEL SPACE SHOOTER</text>
-
-  <g transform="translate(0 0)">
-    <g transform="translate(-44 40)">
-      <animateTransform attributeName="transform" type="translate" values="-44 40; 800 40" dur="7.5s" repeatCount="indefinite"/>
-      <use href="#chicken"/>
-      <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.44;0.52;1" dur="7.5s" begin="0s" repeatCount="indefinite"/>
-      <g transform="translate(10 8)" opacity="0">
-        <use href="#boom"/>
-        <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.46;0.5;0.56;1" dur="7.5s" begin="0s" repeatCount="indefinite"/>
-      </g>
-    </g>
-
-    <g transform="translate(-168 40)">
-      <animateTransform attributeName="transform" type="translate" values="-168 40; 676 40" dur="7.5s" repeatCount="indefinite"/>
-      <use href="#chicken"/>
-      <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.49;0.57;1" dur="7.5s" begin="1.2s" repeatCount="indefinite"/>
-      <g transform="translate(10 8)" opacity="0">
-        <use href="#boom"/>
-        <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.51;0.55;0.61;1" dur="7.5s" begin="1.2s" repeatCount="indefinite"/>
-      </g>
-    </g>
-
-    <g transform="translate(-292 40)">
-      <animateTransform attributeName="transform" type="translate" values="-292 40; 552 40" dur="7.5s" repeatCount="indefinite"/>
-      <use href="#chicken"/>
-      <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.42;0.5;1" dur="7.5s" begin="2.4s" repeatCount="indefinite"/>
-      <g transform="translate(10 8)" opacity="0">
-        <use href="#boom"/>
-        <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.44;0.48;0.54;1" dur="7.5s" begin="2.4s" repeatCount="indefinite"/>
-      </g>
-    </g>
-
-    <g transform="translate(-416 40)">
-      <animateTransform attributeName="transform" type="translate" values="-416 40; 428 40" dur="7.5s" repeatCount="indefinite"/>
-      <use href="#chicken"/>
-      <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.46;0.54;1" dur="7.5s" begin="3.6s" repeatCount="indefinite"/>
-      <g transform="translate(10 8)" opacity="0">
-        <use href="#boom"/>
-        <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.48;0.52;0.58;1" dur="7.5s" begin="3.6s" repeatCount="indefinite"/>
-      </g>
-    </g>
-
-    <g transform="translate(-80 82)">
-      <animateTransform attributeName="transform" type="translate" values="-80 82; 764 82" dur="8.2s" repeatCount="indefinite"/>
-      <use href="#chicken"/>
-      <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.5;0.58;1" dur="8.2s" begin="0.6s" repeatCount="indefinite"/>
-      <g transform="translate(10 8)" opacity="0">
-        <use href="#boom"/>
-        <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.52;0.56;0.62;1" dur="8.2s" begin="0.6s" repeatCount="indefinite"/>
-      </g>
-    </g>
-
-    <g transform="translate(-228 82)">
-      <animateTransform attributeName="transform" type="translate" values="-228 82; 616 82" dur="8.2s" repeatCount="indefinite"/>
-      <use href="#chicken"/>
-      <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.43;0.51;1" dur="8.2s" begin="1.8s" repeatCount="indefinite"/>
-      <g transform="translate(10 8)" opacity="0">
-        <use href="#boom"/>
-        <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.45;0.49;0.55;1" dur="8.2s" begin="1.8s" repeatCount="indefinite"/>
-      </g>
-    </g>
-
-    <g transform="translate(-376 82)">
-      <animateTransform attributeName="transform" type="translate" values="-376 82; 468 82" dur="8.2s" repeatCount="indefinite"/>
-      <use href="#chicken"/>
-      <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.48;0.56;1" dur="8.2s" begin="3s" repeatCount="indefinite"/>
-      <g transform="translate(10 8)" opacity="0">
-        <use href="#boom"/>
-        <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.5;0.54;0.6;1" dur="8.2s" begin="3s" repeatCount="indefinite"/>
-      </g>
-    </g>
+  <g filter="url(#softGlow)" opacity="0.75">
+    <path d="M0 160H760" stroke="#263041" stroke-width="2"/>
+    <path d="M0 161.5H760" stroke="#7ee787" stroke-opacity="0.12" stroke-width="1"/>
   </g>
 
-  <g transform="translate(-20 166)">
-    <animateTransform attributeName="transform" type="translate" values="-20 166; 700 166; -20 166" dur="6.5s" repeatCount="indefinite"/>
-    <use href="#ship"/>
-    <rect x="13" y="-18" width="2" height="16" fill="#7ee787">
-      <animate attributeName="opacity" values="0;1;0" dur="0.7s" repeatCount="indefinite"/>
+  <g transform="translate(102 62)" filter="url(#tinyGlow)">
+    <rect x="0" y="0" width="92" height="44" rx="10" fill="url(#enemy)" opacity="0.95"/>
+    <rect x="10" y="8" width="18" height="18" rx="4" fill="#0b0f16" opacity="0.9"/>
+    <rect x="64" y="8" width="18" height="18" rx="4" fill="#0b0f16" opacity="0.9"/>
+    <rect x="22" y="24" width="48" height="10" rx="4" fill="#0b0f16" opacity="0.9"/>
+    <animateTransform attributeName="transform" type="translate" values="102 62; 102 66; 102 62" dur="2.2s" repeatCount="indefinite"/>
+  </g>
+
+  <g transform="translate(268 38)" filter="url(#tinyGlow)">
+    <rect x="0" y="0" width="92" height="44" rx="10" fill="url(#enemy)" opacity="0.95"/>
+    <rect x="10" y="8" width="18" height="18" rx="4" fill="#0b0f16" opacity="0.9"/>
+    <rect x="64" y="8" width="18" height="18" rx="4" fill="#0b0f16" opacity="0.9"/>
+    <rect x="22" y="24" width="48" height="10" rx="4" fill="#0b0f16" opacity="0.9"/>
+    <animateTransform attributeName="transform" type="translate" values="268 38; 268 42; 268 38" dur="2.6s" repeatCount="indefinite"/>
+  </g>
+
+  <g transform="translate(442 58)" filter="url(#tinyGlow)">
+    <rect x="0" y="0" width="92" height="44" rx="10" fill="url(#enemy)" opacity="0.95"/>
+    <rect x="10" y="8" width="18" height="18" rx="4" fill="#0b0f16" opacity="0.9"/>
+    <rect x="64" y="8" width="18" height="18" rx="4" fill="#0b0f16" opacity="0.9"/>
+    <rect x="22" y="24" width="48" height="10" rx="4" fill="#0b0f16" opacity="0.9"/>
+    <animateTransform attributeName="transform" type="translate" values="442 58; 442 62; 442 58" dur="2.1s" repeatCount="indefinite"/>
+  </g>
+
+  <g transform="translate(618 42)" filter="url(#tinyGlow)">
+    <rect x="0" y="0" width="92" height="44" rx="10" fill="url(#enemy)" opacity="0.95"/>
+    <rect x="10" y="8" width="18" height="18" rx="4" fill="#0b0f16" opacity="0.9"/>
+    <rect x="64" y="8" width="18" height="18" rx="4" fill="#0b0f16" opacity="0.9"/>
+    <rect x="22" y="24" width="48" height="10" rx="4" fill="#0b0f16" opacity="0.9"/>
+    <animateTransform attributeName="transform" type="translate" values="618 42; 618 46; 618 42" dur="2.8s" repeatCount="indefinite"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <path d="M378 184 L350 208 L406 208 Z" fill="url(#ship)"/>
+    <path d="M378 168 L364 188 H392 Z" fill="#e6edf3"/>
+    <rect x="373" y="188" width="10" height="18" rx="3" fill="#00c2ff"/>
+    <path d="M378 208 C370 204, 368 198, 366 188 L390 188 C388 198, 386 204, 378 208 Z" fill="#7ee787" opacity="0.85"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 2; 0 0" dur="1.8s" repeatCount="indefinite"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <rect x="372" y="138" width="4" height="34" rx="2" fill="url(#glow)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -16; 0 -36" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.8;1" dur="1.5s" repeatCount="indefinite"/>
     </rect>
-    <rect x="12" y="-36" width="4" height="18" fill="#00c2ff">
-      <animate attributeName="opacity" values="0;1;0" dur="0.7s" repeatCount="indefinite"/>
+    <rect x="408" y="148" width="4" height="24" rx="2" fill="url(#glow)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -18; 0 -42" dur="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.78;1" dur="1.1s" repeatCount="indefinite"/>
     </rect>
-    <rect x="13" y="-54" width="2" height="14" fill="#ffffff">
-      <animate attributeName="opacity" values="0;1;0" dur="0.7s" repeatCount="indefinite"/>
+    <rect x="338" y="152" width="4" height="20" rx="2" fill="url(#glow)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -12; 0 -30" dur="1.35s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.82;1" dur="1.35s" repeatCount="indefinite"/>
     </rect>
   </g>
+
+  <text x="380" y="24" text-anchor="middle" fill="#7ee787" font-family="monospace" font-size="16" font-weight="700">SPACE SHOOTER</text>
 </svg>
