@@ -3,7 +3,7 @@ CS Student @ Ateneo de Davao. I build scalable software with a focus on clean co
 
 ## Socials:
 <p align="center">
-  <a href="mailto:pulidoomicoo@gmail.com">
+  <a href="mailto:pulidoomicoo@gmail.com" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
