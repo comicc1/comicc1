@@ -13,7 +13,7 @@ CS Student @ Ateneo de Davao. I build scalable software with a focus on clean co
    <img src="https://skillicons.dev/icons?i=nextjs,azure,python,vercel,html,c,js,ts,java,cs,angular,dotnet,tailwind,vue,react,sass,apache,supabase,mysql,sqlite,figma,canva,numpy,pandas,github,git&perline=13" alt="Tech Stack" />
 </p>
 
-## Contribution
+## Contribution Activity:
 <p align="center">
   <img src="https://github.com/comicc1/comicc1/blob/output/github-contribution-grid-snake.svg?raw=true" alt="Contribution Snake" />
 </p>
