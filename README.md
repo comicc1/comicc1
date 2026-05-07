@@ -1,6 +1,5 @@
 # About Me:
-CS Student @ Ateneo de Davao. I build scalable software with a focus on clean code and high-performance UX. I believe technical complexity should stay under the hood, leaving only a seamless experience for the user.
-
+CS Student @ Ateneo de Davao. I build scalable software with a focus on clean code and high-performance UX. 
 ## Socials:
 <p align="center">
   <a href="mailto:pulidoomicoo@gmail.com" target="_blank" rel="noopener noreferrer">
